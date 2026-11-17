@@ -14,7 +14,7 @@ import Profile from '../pages/Profile.jsx'
 function Protected({ children }) {
   const { user, loading } = useAuth()
   if (loading) return <Loading />
-  return user ? children : <Navigate to="/login" replace />
+  return user ? children : <Navigate to="/register" replace />
 }
 
 function GuestOnly({ children }) {
