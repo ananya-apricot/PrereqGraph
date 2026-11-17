@@ -27,8 +27,8 @@ export default function Register() {
 
   return (
     <main className="auth-page mx-auto mt-16 max-w-sm px-4">
-      <h1 className="auth-title">Create your account</h1>
-      <p className="mt-1 text-sm text-slate-500">Find the gaps. Follow the path.</p>
+      <h1 className="auth-title">Welcome to PrereqGraph</h1>
+      <p className="mt-1 text-sm text-slate-500">Create an account to start your learning journey.</p>
       <form onSubmit={submit} className="auth-form mt-6 space-y-4 rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
         {error && <ErrorBox message={error} />}
         <label className="block text-sm font-medium">Name
